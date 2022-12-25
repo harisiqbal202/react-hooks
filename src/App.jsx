@@ -6,6 +6,8 @@ import { Routes, Route } from "react-router-dom";
 import AddNew from "./Compnents/AddNew";
 import EditUser from "./Compnents/EditUser";
 
+import ReducerEx from "./Compnents/ReducerEx";
+
 const queryClient = new QueryClient();
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
         <Routes>
           <Route path="" element={<Users />} />
           <Route path="/addnew" element={<AddNew />} />
+          <Route path="/reducer" element={<ReducerEx />} />
           <Route path="/edituser/:id" element={<EditUser />} />
           <Route path="/users/:id" element={<Detail />} />
 

@@ -35,6 +35,14 @@ function Users() {
                 >
                   Add User
                 </button>
+                <button
+                  onClick={() => {
+                    navigate("reducer");
+                  }}
+                  className="rounded bg-blue-600 text-white p-2 m-2"
+                >
+                  Reducer Example Form
+                </button>
                 <table className="w-full">
                   <thead className="border-b">
                     <tr>
