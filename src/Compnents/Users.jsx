@@ -43,6 +43,14 @@ function Users() {
                 >
                   Reducer Example Form
                 </button>
+                <button
+                  onClick={() => {
+                    navigate("counter");
+                  }}
+                  className="rounded bg-blue-600 text-white p-2 m-2"
+                >
+                  Counter
+                </button>
                 <table className="w-full">
                   <thead className="border-b">
                     <tr>

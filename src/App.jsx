@@ -7,6 +7,7 @@ import AddNew from "./Compnents/AddNew";
 import EditUser from "./Compnents/EditUser";
 
 import ReducerEx from "./Compnents/ReducerEx";
+import Counter from "./Compnents/counter";
 
 const queryClient = new QueryClient();
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="" element={<Users />} />
           <Route path="/addnew" element={<AddNew />} />
+          <Route path="/counter" element={<Counter />} />
           <Route path="/reducer" element={<ReducerEx />} />
           <Route path="/edituser/:id" element={<EditUser />} />
           <Route path="/users/:id" element={<Detail />} />
