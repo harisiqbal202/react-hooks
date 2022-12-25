@@ -29,8 +29,6 @@ function ReducerEx() {
             <input
               type="email"
               name="email"
-              value={state.email}
-              onChange={() => {}}
               className="form-control
         block
         w-full
